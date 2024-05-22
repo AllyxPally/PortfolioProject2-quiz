@@ -1,27 +1,44 @@
-/* Font */
+/* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Ramaraja&display=swap');
 
 /* General styles */
 body {
+    display: flex;
+    justify-content: center;
     background-color: #e498c2;
-    font-family: 'fuzzy bubbles', sans-serif; 
+    font-family: 'fuzzy bubbles', sans-serif;
 }
 
 .quiz_container {
+    display: flex;
+    justify-content: center;
     box-sizing: border-box;
     width: 500px;
-    height: 150px;
+    margin: 20px;
     padding: 50px;
     border-radius: 25px;
     border: 5px solid #8800FF;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    margin: 14px;
+    padding: 12px;
 }
 
 .option {
     font-family: 'fuzzy bubbles', sans-serif;
     background-color: #d00dac;
     color: #ffff;
-    margin: 0 auto;
+    width: 150px;
+    margin: 2em;
+    padding: 1em;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+
+.option:hover {
+    background-color: #8800FF;
 }
