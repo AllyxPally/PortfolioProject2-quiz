@@ -25,7 +25,16 @@ const quizData = [
 let validQuestion = 0; 
 let rightAnswers = 0; 
 
+// Displays the question to the user
+
 function displayQuestion() {
     const quizText = document.getElementsByClassName("quiz_text");
     quizText.quizContent = quizData[validQuestion].quiz;
+
+    const options = document.getElementsByClassName("option");
+    options.forEach((option, index) => {
+    option.quizContent = quizData[validQuestion].options;
+    });
+    const feedback = document.getElementsByClassName("feedback");
+    feedback.quizContent = "";
 }
