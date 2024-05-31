@@ -25,7 +25,7 @@ const quizData = [
 let validQuestion = 0; 
 let rightAnswers = 0; 
 
-// Displays the question to the user
+// Function to display the question to the user
 
 function displayQuestion() {
     const quizText = document.getElementsByClassName("quiz_text");
@@ -38,3 +38,13 @@ function displayQuestion() {
     const feedback = document.getElementsByClassName("feedback");
     feedback.quizContent = "";
 }
+// Function to check if the answer is right 
+
+function checkAnswer(chosenAnswer) {
+const feedback = document.getElementsByClassName("feedback");
+if (chosenAnswer === quizData[validQuestion].right) {
+    feedback.quizContent = "Right!";
+rightAnswers++;
+} else {
+    feedback.quizContent = "Wrong!";
+}};
