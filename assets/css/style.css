@@ -1,5 +1,5 @@
-/* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Ramaraja&display=swap');
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
 
 /* General styles */
 body {
@@ -19,7 +19,6 @@ body {
     border-radius: 25px;
     border: 5px solid #8800FF;
 }
-
 .options {
     display: flex;
     flex-direction: column;
@@ -31,7 +30,7 @@ body {
     font-family: 'fuzzy bubbles', sans-serif;
     background-color: #d00dac;
     color: #ffff;
-    width: 150px;
+    /*width: 150px;*/
     margin: 2em;
     padding: 1em;
     border: none;

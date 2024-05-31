@@ -47,4 +47,6 @@ if (chosenAnswer === quizData[validQuestion].right) {
 rightAnswers++;
 } else {
     feedback.quizContent = "Wrong!";
-}};
+}
+
+};
