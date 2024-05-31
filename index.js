@@ -1,6 +1,7 @@
+// Quiz 
 const quizData = [
     {
-   question: 'What is the name of the princess in Super Mario?',
+   question: 'What is the name of the princess who wears a pink dress in Super Mario?',
    options: ['Rose', 'Zelda', 'Peach', 'Megan'],
    right: '2',
 },
@@ -20,3 +21,11 @@ const quizData = [
     right: '0',
 },
 ];
+
+let validQuestion = 0; 
+let rightAnswers = 0; 
+
+function displayQuestion() {
+    const quizText = document.getElementsByClassName("quiz_text");
+    quizText.quizContent = quizData[validQuestion].quiz;
+}
