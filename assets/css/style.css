@@ -18,11 +18,10 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 50vh;
-    background-image: url('assets/images/sparkly-pink.png'); /* Image isn't showing */
+    background-image: url('../images/sparkly-pink.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-color: orchid;
-
 }
 
 
