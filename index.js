@@ -48,5 +48,13 @@ rightAnswers++;
 } else {
     feedback.quizContent = "Wrong!";
 }
-
+validQuestion++; 
+if(validQuestion < quizData.length) {
+displayQuestion();
+} else {
+    const quizContainer = document.getElementsByClassName("quiz_container");
+    quizContainer.innerHTML = `<p>You're result is ${rightAnswers} out of ${quizData.length}</p>`;
+}
 };
+
+displayQuestion();
