@@ -1,12 +1,28 @@
 /* Font */
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
 
+/* Asterisk wildcard selector to override default styles */
+* {
+    padding: 0;
+    margin: 0;
+}
+
 /* General styles */
 body {
-    display: flex;
-    justify-content: center;
     background-color: #e498c2;
     font-family: 'fuzzy bubbles', sans-serif;
+}
+
+#header_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background-image: url('assets/images/sparkly-pink.png'); /* Image isn't showing */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: orchid;
+
 }
 
 
@@ -15,7 +31,7 @@ body {
     justify-content: center;
     box-sizing: border-box;
     width: 500px;
-    margin: 20px;
+    margin: auto;
     padding: 50px;
     border-radius: 25px;
     border: 5px solid #8800FF;
