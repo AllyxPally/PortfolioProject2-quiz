@@ -1,7 +1,7 @@
 // Quiz
 const quizData = [
     {
-        question: 'What is the name of the princess who wears a pink dress in Super Mario?',
+        question: 'What is the name of the princess who usually wears a pink dress in Super Mario?',
         options: ['Rose', 'Zelda', 'Peach', 'Megan'],
         right: 2
     },

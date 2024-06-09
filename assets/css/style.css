@@ -31,8 +31,6 @@ body {
 }
 
 .quiz_container {
-    display: flex;
-    justify-content: center;
     box-sizing: border-box;
     width: 500px;
     margin: auto;
@@ -61,4 +59,8 @@ body {
 
 .option:hover {
     background-color: #8800FF;
+} 
+
+p {
+    text-align: center;
 }
