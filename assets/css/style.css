@@ -24,6 +24,11 @@ body {
     background-color: orchid;
 }
 
+.header_text {
+    font-size: xx-large;
+    max-width: fit-content;
+    width: 100%;
+}
 
 .quiz_container {
     display: flex;
