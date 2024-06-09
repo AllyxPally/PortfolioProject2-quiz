@@ -61,6 +61,11 @@ body {
     background-color: #8800FF;
 } 
 
-p {
+/*h2 {
+    text-align: center;
+    
+}*/
+
+p, h2 {
     text-align: center;
 }

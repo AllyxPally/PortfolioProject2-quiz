@@ -57,7 +57,8 @@ function checkAnswer(chosenAnswer) {
         displayQuestion();
     } else {
         const quizContainer = document.querySelector(".quiz_container");
-        quizContainer.innerHTML = `<p>You're result is ${score} out of ${quizData.length}</p>`;
+        quizContainer.innerHTML = `<h2>You have finished the quiz!</h2>
+        <p>Your result is ${score} out of ${quizData.length}</p>`;
     }
 }, 1000);
 }
