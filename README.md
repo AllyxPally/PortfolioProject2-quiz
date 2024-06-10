@@ -5,21 +5,24 @@ Popculture quiz is a quick and fun way to test your knowledge on a mix of questi
 ## Features 
 
 
-* Header 
+* **Header**
   - The header shows the name of the game, in a fun and playful font 
     that contrasts with the background.
   - The header plainly tells the user that this is a quiz. 
 
-* Quiz
-  - The quiz contains the question at the top and below are the multiple choice buttons.
-  - The user can click on a button to play the game, the game begins when the user clicks on any
-of the buttons on the first question. 
+* **Quiz Options**
+  - The quiz contains a question at the top and below are the interactive multiple choice buttons.
+  - The game begins when the user clicks on any of the option buttons on the first question. 
+
+  * **Quiz Result**
+    - When the user clicks an option, they will instantly know if they have answered correctly or not
+    - After getting feedback they will automatically get to the next question, when they have answered all the questions they will get to the result page, which clearly tells them how well they did and what their score is
 
 ## Testing
 
 * I tested that this page works in different browsers: Firefox, Chrome.
 
-I have confirmed that the game works, every button works as intended and 
+* I have confirmed that the game works, the button works as intended and the user feedback is always correct.
 
 ## Bugs
 
