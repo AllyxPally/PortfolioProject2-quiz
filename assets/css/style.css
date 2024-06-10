@@ -61,11 +61,13 @@ body {
     background-color: #8800FF;
 } 
 
-/*h2 {
-    text-align: center;
-    
-}*/
-
 p, h2 {
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    body {
+        flex-wrap: wrap;
+    }
+}
+ 
