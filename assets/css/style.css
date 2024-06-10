@@ -74,6 +74,15 @@ h2 {
     text-align: center;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: orchid;
+    margin-top: 8%;
+}
+
 /* large mobile phones */
 @media only screen and (max-width:768px){
 
