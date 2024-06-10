@@ -1,43 +1,51 @@
 /* Font */
+
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
 
-/* Asterisk wildcard selector to override default styles */
+/* Asterisk wildcard selector to override default styles 
 * {
     padding: 0;
     margin: 0;
-}
+}*/
 
 /* General styles */
+
 body {
     background-color: #e498c2;
     font-family: 'fuzzy bubbles', sans-serif;
+    position: relative;
+    margin: 0;
 }
+/* Header */
 
 #header_container {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 50vh;
+    height: 50%;
     background-image: url('../images/sparkly-pink.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-color: orchid;
+    margin-bottom: 8%;
 }
 
 .header_text {
-    font-size: xx-large;
-    max-width: fit-content;
+    font-size: larger;
+    text-align: center;
     width: 100%;
 }
+/* Quiz */
 
 .quiz_container {
     box-sizing: border-box;
-    width: 500px;
+    width: 65%;
     margin: auto;
     padding: 50px;
     border-radius: 25px;
     border: 5px solid #8800FF;
 }
+
 .options {
     display: flex;
     flex-direction: column;
@@ -59,15 +67,9 @@ body {
 
 .option:hover {
     background-color: #8800FF;
-} 
+}
 
-p, h2 {
+p,
+h2 {
     text-align: center;
 }
-
-@media screen and (max-width: 768px) {
-    body {
-        flex-wrap: wrap;
-    }
-}
- 
