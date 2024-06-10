@@ -15,8 +15,12 @@ Popculture quiz is a quick and fun way to test your knowledge on a mix of questi
   - The game begins when the user clicks on any of the option buttons on the first question. 
 
 * **Quiz Result**
-  - When the user clicks an option, they will instantly know if they have answered correctly or not
-  - After getting feedback on their answer they will automatically get to the next question, when they have answered all the questions they will get to the result page, which clearly tells them how well they did and what their score is
+  - When the user clicks an option, they will instantly know if they have answered correctly or not, 
+  if they have answered incorrectly they will be provided with the correct answer
+  - After getting feedback on their answer they will automatically get to the next question, when they have answered all the questions they will get to the result page, which clearly tells them how well they did and what their score is 
+  
+  * **Footer**
+    - The footer contains a restart button which provides the user with the option to restart the quiz
 
 ## Testing
 
