@@ -41,6 +41,8 @@ I have confirmed that the game works, every button works as intended and
   - From the drop down menu, select the main branch
   - Once the main branch has been chosen, the page provided the link to the finished website.
 
+The link to the live page can be found here: [Popculture Quiz](https://allyxpally.github.io/PortfolioProject2-quiz/)
+
 ## Credits
 
 * Media
