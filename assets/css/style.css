@@ -2,20 +2,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
 
-/* Asterisk wildcard selector to override default styles 
+/* Asterisk wildcard selector to override default styles */
 * {
     padding: 0;
     margin: 0;
-}*/
+}
 
 /* General styles */
 
 body {
     background-color: #e498c2;
     font-family: 'fuzzy bubbles', sans-serif;
-    position: relative;
-    margin: 0;
 }
+
 /* Header */
 
 #header_container {
@@ -35,6 +34,7 @@ body {
     text-align: center;
     width: 100%;
 }
+
 /* Quiz */
 
 .quiz_container {
