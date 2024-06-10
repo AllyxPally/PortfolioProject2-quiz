@@ -26,7 +26,6 @@ let avaliableQuestions = 0;
 let score = 0;
 
 // Function to display the question to the user
-
 function displayQuestion() {
     const quizText = document.getElementById("quiz_text");
     quizText.textContent = quizData[avaliableQuestions].question;
@@ -40,14 +39,16 @@ function displayQuestion() {
     feedback.textContent = "";
 }
 // Function to check if the answer is right 
-
 function checkAnswer(chosenAnswer) {
+
+    const correctAnswer = quizData[avaliableQuestions].right
     const feedback = document.getElementById("feedback");
-    if (chosenAnswer === quizData[avaliableQuestions].right) {
+    if (chosenAnswer === correctAnswer) {
         feedback.textContent = "Right!";
         score++;
     } else {
-        feedback.textContent = "Wrong!";
+        const answerValue = quizData[avaliableQuestions].options[correctAnswer]
+        feedback.textContent = `Wrong! The correct answer is ${answerValue}`;
     }
 
     setTimeout (() => {

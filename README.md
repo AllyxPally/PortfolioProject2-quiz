@@ -16,7 +16,7 @@ Popculture quiz is a quick and fun way to test your knowledge on a mix of questi
 
 * **Quiz Result**
   - When the user clicks an option, they will instantly know if they have answered correctly or not
-  - After getting feedback they will automatically get to the next question, when they have answered all the   questions they will get to the result page, which clearly tells them how well they did and what their score is
+  - After getting feedback on their answer they will automatically get to the next question, when they have answered all the questions they will get to the result page, which clearly tells them how well they did and what their score is
 
 ## Testing
 
