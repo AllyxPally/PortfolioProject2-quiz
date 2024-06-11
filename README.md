@@ -22,13 +22,13 @@ Popculture quiz is a quick and fun way to test your knowledge on a mix of questi
 
 * **Quiz Result**
   - When the user clicks an option, they will instantly know if they have answered correctly or not, 
-  if they have answered incorrectly they will be provided with the correct answer
-  - After getting feedback on their answer they will automatically get to the next question, when they have answered all the questions they will get to the result page, which clearly tells them how well they did and what their score is 
+  if they have answered incorrectly they will be provided with the correct answer.
+  - After getting feedback on their answer they will automatically get to the next question, when they have answered all the questions they will get to the result page, which clearly tells them how well they did and what their score is.
   
   ![Screenshot of feedback during gameplay](assets/images/screenshot-feedback.png)
   
 * **Footer**
-  - The footer contains a restart button which provides the user with the option to restart the quiz
+  - The footer contains a restart button which provides the user with the option to restart the quiz.
   
   ![Screenshot of footer with restart button](assets/images/screenshot-footer.png)
 
@@ -36,7 +36,10 @@ Popculture quiz is a quick and fun way to test your knowledge on a mix of questi
 
 * I tested that this page works in different browsers: Firefox, Chrome.
 
-* I have confirmed that the game works, the buttons works as intended and the user feedback is always correct.
+* I have confirmed that the game works, the buttons works as intended and the user feedback is always correct. 
+
+* I have confirmed that colours and font chosen for this project are easy to read and accesible 
+by running it through lighthouse in devtools
 
 ![Screenshot of lighthouse test](assets/images/screenshot-lighthouse.png)
 
@@ -44,10 +47,12 @@ Popculture quiz is a quick and fun way to test your knowledge on a mix of questi
 
 ## Solved bugs ##
 
-* I noticed that the image for the header didn't show up when i added it to my css file  
+* I noticed that the image for the header didn't show up when i added it to my css file.  
 * This was because the filepath to the stylesheet was wrong
 
 ![Screenshot of wrong filepath](assets/images/screenshot-filepath.png)
+
+* Adding assets/css solved the problem.
 
 ## Validator testing
 
