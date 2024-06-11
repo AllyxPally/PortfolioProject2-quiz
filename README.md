@@ -30,7 +30,7 @@ Popculture quiz is a quick and fun way to test your knowledge on a mix of questi
 * **Footer**
   - The footer contains a restart button which provides the user with the option to restart the quiz.
   
-  ![Screenshot of footer with restart button](assets/images/screenshot-footer.png)
+  ![Screenshot of footer with restart button](assets/images/screenshot-footer.png) 
 
 ## Testing
 
@@ -60,9 +60,12 @@ by running it through lighthouse in devtools
   - No errors were returned when i checked the code in the official W3C validator.
 * CSS
   - No errors were returned when i checked the code in the official Jigsaw validator.
+* Javascript
+  - No errors were returned when i checked the code in JSHint.
 
+## Unfixed Bugs 
 
-## Unfixed Bugs
+* Footer moves when one get to the end of the quiz.
 
 ## Deployment
 

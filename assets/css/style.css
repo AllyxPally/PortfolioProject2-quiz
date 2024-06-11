@@ -97,7 +97,6 @@ a {
     font-family: 'fuzzy bubbles', sans-serif;
     background-color: #8800FF;
     color: #ffff;
-    /*width: 150px;*/
     margin: 2em;
     padding: 1em;
     border: none;
@@ -118,19 +117,4 @@ a {
         margin-left: 10%;
         margin-right: 10%;
     }
-}
-
-
-/* small mobile phones */
-@media only screen and (max-width:600px){
-/*.quiz_container {
-    width: 80%;
-    padding: 30px;
-}*/
-}
-
-
-/*  tablet devices */
-@media only screen and (max-width:992px){
-
 }
