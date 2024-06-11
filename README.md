@@ -2,7 +2,7 @@
 
 Popculture quiz is a quick and fun way to test your knowledge on a mix of questions.
 
-![Screenshot of what the quiz looks like on diffrent screens](assets/images/screenshots-screens.png)
+![Screenshot of diffrent screens](assets/images/screenshot-screens.png)
 
 ## Features 
 
