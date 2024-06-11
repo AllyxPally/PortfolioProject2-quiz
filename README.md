@@ -2,7 +2,7 @@
 
 Popculture quiz is a quick and fun way to test your knowledge on a mix of questions.
 
-![Screenshot of what the quiz looks like on diffrent screens](assets/images/screenshot.png)
+![Screenshot of what the quiz looks like on diffrent screens](assets/images/screenshots-screens.png)
 
 ## Features 
 
@@ -17,7 +17,7 @@ Popculture quiz is a quick and fun way to test your knowledge on a mix of questi
 * **Quiz Options**
   - The quiz contains a question at the top and below are the interactive multiple choice buttons.
   - The game begins when the user clicks on any of the option buttons on the first question. 
-  [Screenshot of quiz](assets/images/screenshot-quiz.png)
+  ![Screenshot of quiz](assets/images/screenshot-quiz.png)
 
 * **Quiz Result**
   - When the user clicks an option, they will instantly know if they have answered correctly or not, 
@@ -27,7 +27,7 @@ Popculture quiz is a quick and fun way to test your knowledge on a mix of questi
   
 * **Footer**
   - The footer contains a restart button which provides the user with the option to restart the quiz
-  [Screenshot of footer with restart button](assets/images/screenshot-footer.png)
+  ![Screenshot of footer with restart button](assets/images/screenshot-footer.png)
 
 ## Testing
 
