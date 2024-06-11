@@ -39,7 +39,7 @@ body {
 
 .quiz_container {
     box-sizing: border-box;
-    width: 80%;
+    width: 45%;
     margin: auto;
     padding: 50px;
     border-radius: 25px;
@@ -119,8 +119,11 @@ a {
 
 /* small mobile phones */
 @media only screen and (max-width:600px){
-
+.quiz_container {
+    width:auto
 }
+}
+
 
 /*  tablet devices */
 @media only screen and (max-width:992px){
