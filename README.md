@@ -12,6 +12,8 @@ Popculture quiz is a quick and fun way to test your knowledge on a mix of questi
     that contrasts with the background.
   - The header plainly tells the user that this is a quiz. 
 
+![Screenshot of header](assets/images/screenshot-header.png)
+
 * **Quiz Options**
   - The quiz contains a question at the top and below are the interactive multiple choice buttons.
   - The game begins when the user clicks on any of the option buttons on the first question. 
